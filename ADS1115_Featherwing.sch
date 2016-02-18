@@ -10960,7 +10960,7 @@ http://dangerousprototypes.com</description>
 <wire x1="35.56" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$2" class="1">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <pinref part="D1" gate="G$1" pin="+"/>
