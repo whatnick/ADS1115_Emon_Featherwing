@@ -12552,7 +12552,7 @@ type 0309, grid 20mm</description>
 <part name="R6" library="microbuilder" deviceset="RESISTOR" device="0603" value="100R"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="MS1" library="adafruit" deviceset="FEATHERWING" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="R0603" value="100K"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R0603" value="120K"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="B1" library="rectifier" deviceset="MB*S" device="" technology="8"/>
 <part name="J1" library="dp_devices" deviceset="CON_DC_M" device="-DC_SMD"/>
