@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12512,7 +12512,7 @@ type 0309, grid 20mm</description>
 </libraries>
 <attributes>
 <attribute name="CNAME" value="EMON_FEATHERWING"/>
-<attribute name="CREVISION" value="V3"/>
+<attribute name="CREVISION" value="V4"/>
 <attribute name="DESIGNER" value="@whatnick"/>
 </attributes>
 <variantdefs>
@@ -12994,21 +12994,10 @@ type 0309, grid 20mm</description>
 </net>
 <net name="V_AC+" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="111.76" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="114.3" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
-<junction x="139.7" y="114.3"/>
-<label x="132.08" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
 <label x="5.08" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="V_AC-" class="1">
 <segment>
 <wire x1="149.86" y1="111.76" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -13021,10 +13010,21 @@ type 0309, grid 20mm</description>
 <pinref part="B1" gate="G$1" pin="AC2"/>
 <pinref part="J1" gate="J" pin="P1"/>
 </segment>
+</net>
+<net name="V_AC-" class="1">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
 <label x="5.08" y="43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="111.76" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="114.3" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
+<junction x="139.7" y="114.3"/>
+<label x="132.08" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
